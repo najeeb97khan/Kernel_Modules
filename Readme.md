@@ -1,6 +1,7 @@
 # Linux Kernel Modules
 
 The Linux Kernel Modules were part of the presentation for CEN-605, Linux Utility Lab. The presentation for the same can be found on the link below
+
 [Link to the Presentation](https://docs.google.com/presentation/d/18c2DXre7kah3m2rbNXBJSBmu_C4XnLfwYwOxrpAAwjw/edit?usp=sharing)
 
 ## About Linux Kernel Module
@@ -11,6 +12,7 @@ But you can also add code to the Linux kernel while it is running. A chunk of co
 * device drivers 
 * filesystem drivers
 * system calls. 
+
 The kernel isolates certain functions, including these, especially well so they don't have to be intricately wired into the rest of the kernel.
 LKMs did not exist in Linux in the beginning. Anything we use an LKM for today was built into the base kernel at kernel build time instead. LKMs have been around at least since Linux 1.2 (1995).
 
